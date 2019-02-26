@@ -1,18 +1,19 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 .special{ 
     background-image: url('stream420x240.jpg');
     width: 420px;
     height: 240px;
     color:white;
-    font-size: 40px;
-    font: arial;
-    margin: 30px;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bolder;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     text-transform: uppercase;
-}
-
-.container{
-    display: flex;
-    justify-content: flex-end;
+    
 }
