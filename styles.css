@@ -1,19 +1,61 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
+nav{
+    display: flex;
+    background: darkgrey
+
+}
+
 .container{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: flex-start;
 }
-.special{ 
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.special{
     background-image: url('stream420x240.jpg');
+}
+.special,.relax{ 
     width: 420px;
     height: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* margin: 5px; */
+}
+.relax{
+    background-image: url('relax420x237.jpg');
+}
+.stream,.relaxwild{
     color:white;
     font-family: Arial;
     font-size: 25px;
     font-weight: bolder;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    margin-left: 25px;
     text-transform: uppercase;
-    
+}
+.hikespecial{ 
+    background-image: url('desert780x477.jpg');
+    width: 780px;
+    height: 477px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin: 5px; */
+}
+.hike{
+    color:white;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid 3px #eca419;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
 }
