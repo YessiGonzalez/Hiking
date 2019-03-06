@@ -1,16 +1,54 @@
+html{
+    width: 1250px;
+}
 body{
-    font-family: 'Muli', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;  
 }
-nav{
+.whole{
+    background-color:#333a35;
+}
+#logo{
     display: flex;
-    background: darkgrey
+    justify-content: flex-start;
+    /* width: 50px; */
+    height: 50px;
+}
+.logo{
+    margin: 12px;
+    padding-top: 0px;
+}
+ul{
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    }
+li{
+    margin: 25px;
+    margin-top: 25px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Muli';    
+    font-weight: bold;
+}
+i{ color: #eca419
 
 }
-
+nav {
+    margin: 0;
+    /* padding: 0; */
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 300px;
+    margin-right: 110px;
+    background-color:#333a35;
+    color: white;
+}  
 .container{
     display: flex;
-    /* justify-content: flex-end; */
-    align-items: flex-start;
+    width: 1200px;
 }
 .box{
     display: flex;
@@ -21,7 +59,7 @@ nav{
 }
 .special,.relax{ 
     width: 420px;
-    height: 240px;
+    height: 237px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -41,21 +79,75 @@ nav{
 .hikespecial{ 
     background-image: url('desert780x477.jpg');
     width: 780px;
-    height: 477px;
+    height: 474px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     /* margin: 5px; */
 }
 .hike{
-    color:white;
-    font-family: Arial;
-    font-size: 50px;
-    font-weight: bolder;
     margin-left: 25px;
-    text-transform: uppercase;
     text-align: center;
+    padding-bottom: 50px;
     border-bottom: solid 3px #eca419;
     margin-inline-start: 50px;
     margin-inline-end: 50px;
+    color:white;
+    font-family: Arial;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:#eca419
+}
+a:active{
+}
+
+.photostrip{
+    display: flex;
+    align-items: flex-end;
+    background-color:white;
+    width: 1200px;
+    padding-top: 25px;
+    justify-content:center;
+    justify-content: space-evenly;
+}
+.recipes{
+    background-image: url('recipes.jpg');
+    width: 279px;
+    height: 183px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+
+.tent{
+    background-image: url('tent.jpg');
+    width: 279px;
+    height: 183px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+.candles{
+    background-image: url('candles.jpg');
+    width: 279px;
+    height: 183px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+.backpack{
+    background-image: url('backpacks.jpg');
+    width: 279px;
+    height: 183px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
 }
