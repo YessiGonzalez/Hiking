@@ -1,5 +1,6 @@
 html{
     width: 1250px;
+    height: 1250px;
 }
 body{
     margin-top: 0px;
@@ -9,11 +10,12 @@ body{
 }
 .whole{
     background-color:#333a35;
+    width: 1250px;
+    height: 1250px;
 }
 #logo{
     display: flex;
     justify-content: flex-start;
-    /* width: 50px; */
     height: 50px;
 }
 .logo{
@@ -38,7 +40,6 @@ i{ color: #eca419
 }
 nav {
     margin: 0;
-    /* padding: 0; */
     display: flex;
     justify-content: flex-start;
     padding-right: 300px;
@@ -63,7 +64,6 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    /* margin: 5px; */
 }
 .relax{
     background-image: url('relax420x237.jpg');
@@ -83,7 +83,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* margin: 5px; */
 }
 .hike{
     margin-left: 25px;
@@ -111,9 +110,10 @@ a:active{
 
 .photostrip{
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     background-color:white;
     width: 1200px;
+    height:300px;
     padding-top: 25px;
     justify-content:center;
     justify-content: space-evenly;
@@ -148,6 +148,40 @@ a:active{
     width: 279px;
     height: 183px;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: flex-end; */
+}
+.recipestext, .tenttext, .candlestext, .backpacktext{
+    text-align: left;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-top: 190px;
+}
+.gear{
+    flex-direction: column; 
+    background-color: #dfd7c7;
+    padding-top: 25px;
+    display: flex;
+    /* align-items: center; */
+    width: 1200px;
+    height:1250px;
+}
+h1{
+    color:#eca419;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:0px;
+}
+#chairtext, #cooksettext, #candles2text, #hatstext{
+    font-family: Arial;
+    /* margin-top: 190px; */
+    display: flex;
+    justify-content: center;
+}
+.chair,.cookset,.hats,.candles2{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    align-items: flex-start;
+    background-color: white;
+    margin: 45px;
 }
