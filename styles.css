@@ -1,17 +1,5 @@
 html{
-    width: 1250px;
-    height: 1250px;
-}
-body{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;  
-}
-.whole{
-    background-color:#333a35;
-    width: 1250px;
-    height: 1250px;
+       background-color:#333a35;
 }
 #logo{
     display: flex;
@@ -44,7 +32,7 @@ nav {
     justify-content: flex-start;
     padding-right: 300px;
     margin-right: 110px;
-    background-color:#333a35;
+    /* background-color:#333a35; */
     color: white;
 }  
 .container{
@@ -150,7 +138,7 @@ a:active{
     display: flex;
 }
 .recipestext, .tenttext, .candlestext, .backpacktext{
-    text-align: left;
+    text-align: center;
     font-family: Arial;
     text-transform: uppercase;
     margin-top: 190px;
@@ -158,30 +146,63 @@ a:active{
 .gear{
     flex-direction: column; 
     background-color: #dfd7c7;
-    padding-top: 25px;
     display: flex;
     /* align-items: center; */
     width: 1200px;
-    height:1250px;
+    height:1725px;
+    padding-bottom: 50px;
 }
 h1{
     color:#eca419;
     text-align: center;
-    font-size: 40px;
-    margin-bottom:0px;
+    font-size: 65px;
+    text-align: relative;
+    left:5px;
+    margin-top: 150px;
+    margin-bottom: 0px;
 }
-#chairtext, #cooksettext, #candles2text, #hatstext{
-    font-family: Arial;
-    /* margin-top: 190px; */
-    display: flex;
-    justify-content: center;
-}
+
 .chair,.cookset,.hats,.candles2{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-    width: 1000px;
-    height: 600px;
+    width: 900px;
+    height: 300px;
     align-items: flex-start;
     background-color: white;
-    margin: 45px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 75px;
+    padding-right: 50px;
+}
+
+#chairtext, #cooksettext, #candles2text, #hatstext{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom:0px;
+    /* justify-content: center; */
+    position: relative;
+    left: 350px;
+    bottom: 175px;
+    width: 500px;
+}
+#chairtext2, #cooksettext2, #candles2text2, #hatstext2{
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    justify-content: center;
+    position: relative;
+    left: 350px;
+    bottom: 170px;
+    width: 600px
+} 
+
+.badge{
+    position: relative;
+    right: 225px;
+    top: 40px;
 }
